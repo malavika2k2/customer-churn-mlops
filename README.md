@@ -3,7 +3,7 @@
 A complete machine learning project that predicts customer churn with full MLOps practices.
 
 
-### Run with Docker (Easiest):
+### Run with Docker
 
 
 
