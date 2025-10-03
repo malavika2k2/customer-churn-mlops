@@ -1,0 +1,31 @@
+# Create .gitignore file
+cat > .gitignore << 'EOF'
+# Virtual environment
+venv/
+env/
+
+# Data files (we'll version these with DVC)
+data/
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.python-version
+
+# Jupyter
+.ipynb_checkpoints
+
+# DVC
+.dvc/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+EOF
