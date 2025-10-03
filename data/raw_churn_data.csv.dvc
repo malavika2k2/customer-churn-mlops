@@ -1,0 +1,5 @@
+outs:
+- md5: 4684a4f2993328fa3cb980d855e611d2
+  size: 145637
+  hash: md5
+  path: raw_churn_data.csv
