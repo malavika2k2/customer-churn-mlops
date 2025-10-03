@@ -4,9 +4,9 @@ A complete machine learning project that predicts customer churn with full MLOps
 
 
 ### Run with Docker (Easiest):
-**```# python
-```bash
-```**
+
+
+
 docker build -t churn-api .
 docker run -p 8000:8000 churn-api
 
