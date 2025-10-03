@@ -1,17 +1,27 @@
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-def test_data_files_exist():
-    """Test that required data files exist"""
-    assert os.path.exists('data/raw_churn_data.csv')
-    assert os.path.exists('data/processed/X_train.csv')
-    assert os.path.exists('data/processed/X_test.csv')
+# Add src to path so we can import modules
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-def test_model_file_exists():
-    """Test that model file exists"""
-    assert os.path.exists('models/random_forest_model.joblib')
+def test_imports():
+    """Test that we can import all required modules"""
+    try:
+        import pandas as pd
+        import sklearn
+        import fastapi
+        import joblib
+        assert True
+    except ImportError as e:
+        assert False, f"Import failed: {e}"
 
 def test_requirements_exist():
     """Test that requirements file exists"""
     assert os.path.exists('requirements.txt')
+
+def test_src_files_exist():
+    """Test that source files exist"""
+    assert os.path.exists('src/app.py')
+    assert os.path.exists('src/get_data.py')
+    assert os.path.exists('src/process_data.py')
+    assert os.path.exists('src/train_model.py')

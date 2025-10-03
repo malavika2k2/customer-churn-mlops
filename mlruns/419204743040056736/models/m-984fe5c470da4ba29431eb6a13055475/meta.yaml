@@ -1,0 +1,10 @@
+artifact_location: file:///Users/malavikasmenon/customer-churn-mlops/mlruns/419204743040056736/models/m-984fe5c470da4ba29431eb6a13055475/artifacts
+creation_timestamp: 1759486212648
+experiment_id: '419204743040056736'
+last_updated_timestamp: 1759486214028
+model_id: m-984fe5c470da4ba29431eb6a13055475
+model_type: null
+name: random_forest_model
+source_run_id: b5959565d28044c9aae6a3bacc353b84
+status: 2
+status_message: null

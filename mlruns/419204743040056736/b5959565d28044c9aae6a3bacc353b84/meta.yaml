@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/malavikasmenon/customer-churn-mlops/mlruns/419204743040056736/b5959565d28044c9aae6a3bacc353b84/artifacts
+end_time: 1759486214042
+entry_point_name: ''
+experiment_id: '419204743040056736'
+lifecycle_stage: active
+run_id: b5959565d28044c9aae6a3bacc353b84
+run_name: selective-pug-668
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759486212236
+status: 3
+tags: []
+user_id: malavikasmenon

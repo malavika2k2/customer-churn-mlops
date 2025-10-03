@@ -1,0 +1,6 @@
+artifact_location: file:///Users/malavikasmenon/customer-churn-mlops/mlruns/419204743040056736
+creation_time: 1759486211983
+experiment_id: '419204743040056736'
+last_update_time: 1759486211983
+lifecycle_stage: active
+name: customer_churn_prediction
