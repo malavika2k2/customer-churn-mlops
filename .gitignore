@@ -1,12 +1,14 @@
-# Create .gitignore file
+# Create a new .gitignore with the correct rules
 cat > .gitignore << 'EOF'
 # Virtual environment
 venv/
 env/
 
-# Data files (we'll version these with DVC)
-data/
-models/
+# Data files (we'll version these with DVC, but ignore the actual data files)
+data/*.csv
+data/processed/*.csv
+models/*.pkl
+models/*.joblib
 
 # IDE
 .vscode/
@@ -21,7 +23,8 @@ __pycache__/
 .ipynb_checkpoints
 
 # DVC
-.dvc/
+.dvc/cache
+.dvc/tmp
 
 # OS
 .DS_Store
