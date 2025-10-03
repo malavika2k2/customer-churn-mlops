@@ -36,11 +36,11 @@ async def load_model():
         model_path = "models/random_forest_model.joblib"
         if os.path.exists(model_path):
             model = joblib.load(model_path)
-            print("✅ Model loaded successfully")
+            print(" Model loaded successfully")
         else:
-            print("❌ Model file not found")
+            print(" Model file not found")
     except Exception as e:
-        print(f"❌ Error loading model: {e}")
+        print(f" Error loading model: {e}")
 
 @app.get("/")
 async def root():

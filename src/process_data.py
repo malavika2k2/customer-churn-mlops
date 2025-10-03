@@ -81,5 +81,5 @@ if __name__ == "__main__":
     # Split and save
     split_and_save_data(X, y)
     
-    print("\n✅ Data processing complete!")
+    print("\n Data processing complete!")
     print("Processed files saved to data/processed/")

@@ -27,11 +27,11 @@ jobs:
         
     - name: Run basic import tests
       run: |
-        python -c "import pandas as pd; print('✅ Pandas imported successfully')"
-        python -c "from sklearn.ensemble import RandomForestClassifier; print('✅ Sklearn imported successfully')"
-        python -c "import fastapi; print('✅ FastAPI imported successfully')"
-        python -c "import joblib; print('✅ Joblib imported successfully')"
-        python -c "import mlflow; print('✅ MLflow imported successfully')"
+        python -c "import pandas as pd; print(' Pandas imported successfully')"
+        python -c "from sklearn.ensemble import RandomForestClassifier; print(' Sklearn imported successfully')"
+        python -c "import fastapi; print(' FastAPI imported successfully')"
+        python -c "import joblib; print(' Joblib imported successfully')"
+        python -c "import mlflow; print(' MLflow imported successfully')"
         
     - name: Run pytest
       run: |

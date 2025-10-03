@@ -105,5 +105,5 @@ if __name__ == "__main__":
     # Save model locally
     save_model_locally(model, accuracy)
     
-    print("\n✅ Model training complete!")
+    print("\n Model training complete")
     print("Check MLflow UI to see your experiment: mlflow ui")
